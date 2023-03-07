@@ -1,0 +1,74 @@
+13703 07:36:23.379803 --- Starting bitbake server pid 13703 at 2023-03-07 07:36:23.379783 ---
+13703 07:36:23.380461 Started bitbake server pid 13703
+13703 07:36:23.380604 Entering server connection loop
+13703 07:36:23.380744 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+13703 07:36:23.381349 Processing Client
+13703 07:36:23.381378 Connecting Client
+13703 07:36:23.381655 Running command ['setFeatures', [2, 1]]
+13703 07:36:23.381726 Command Completed
+13703 07:36:23.382071 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'USER': 'masr4788', 'HOME': '/home/masr4788', 'BBPATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'LOGNAME': 'masr4788', 'PATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/scripts:/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/bin:/home/masr4788/install-lnx/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SSH_AUTH_SOCK': '/tmp/ssh-WP8z7vvwBQ/agent.13014', 'SHELL': '/bin/bash', 'PWD': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'LC_ALL': 'en_US.UTF-8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '35.235.245.97 48741 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman', 'SSH_TTY': '/dev/pts/0', 'QB_SLIRP_OPT': '-netdev user,id=net0,hostfwd=tcp::10022-:22,hostfwd=tcp::9000-:9000', 'BUILDDIR': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', '_': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/scripts/runqemu', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_CONNECTION': '35.235.245.97 48741 10.182.0.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/lib:'}, ['/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/bin/bitbake', '-e']]
+13703 07:36:23.658742 Command Completed
+13703 07:36:23.659322 Running command ['getVariable', 'BBINCLUDELOGS']
+13703 07:36:23.659538 Command Completed
+13703 07:36:23.659624 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+13703 07:36:23.659722 Command Completed
+13703 07:36:23.659799 Running command ['getSetVariable', 'BB_CONSOLELOG']
+13703 07:36:23.659994 Command Completed
+13703 07:36:23.660086 Running command ['getSetVariable', 'BB_LOGCONFIG']
+13703 07:36:23.660180 Command Completed
+13703 07:36:23.661130 Running command ['getUIHandlerNum']
+13703 07:36:23.661227 Command Completed
+13703 07:36:23.661329 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+13703 07:36:23.661439 Command Completed
+13703 07:36:23.661511 Running command ['getVariable', 'BB_DEFAULT_TASK']
+13703 07:36:23.661590 Command Completed
+13703 07:36:23.661657 Running command ['setConfig', 'cmd', 'build']
+13703 07:36:23.661742 Command Completed
+13703 07:36:23.661812 Running command ['getVariable', 'BBTARGETS']
+13703 07:36:23.661884 Command Completed
+13703 07:36:23.661946 Running command ['showEnvironment', None]
+13703 07:36:23.661998 Command Completed
+13703 07:36:24.141939 Processing Client
+13703 07:36:24.141996 Disconnecting Client
+13703 07:36:24.142105 No timeout, exiting.
+13703 07:36:24.242377 Exiting
+13703 07:36:24.245608 Original lockfile contents: ['13703\n']
+13703 07:36:24.246234 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+13815 07:39:02.775967 --- Starting bitbake server pid 13815 at 2023-03-07 07:39:02.775949 ---
+13815 07:39:02.776590 Started bitbake server pid 13815
+13815 07:39:02.776727 Entering server connection loop
+13815 07:39:02.776864 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+13815 07:39:02.777482 Processing Client
+13815 07:39:02.777515 Connecting Client
+13815 07:39:02.777791 Running command ['setFeatures', [2, 1]]
+13815 07:39:02.777859 Command Completed
+13815 07:39:02.778229 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'USER': 'masr4788', 'HOME': '/home/masr4788', 'BBPATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'LOGNAME': 'masr4788', 'PATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/scripts:/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/bin:/home/masr4788/install-lnx/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SSH_AUTH_SOCK': '/tmp/ssh-WP8z7vvwBQ/agent.13014', 'SHELL': '/bin/bash', 'PWD': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'LC_ALL': 'en_US.UTF-8', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '35.235.245.97 48741 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman', 'SSH_TTY': '/dev/pts/0', 'QB_SLIRP_OPT': '-netdev user,id=net0,hostfwd=tcp::10022-:22,hostfwd=tcp::9000-:9000', 'BUILDDIR': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', '_': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/scripts/runqemu', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_CONNECTION': '35.235.245.97 48741 10.182.0.3 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/lib:'}, ['/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/poky/bitbake/bin/bitbake', '-e']]
+13815 07:39:03.038173 Command Completed
+13815 07:39:03.038698 Running command ['getVariable', 'BBINCLUDELOGS']
+13815 07:39:03.038908 Command Completed
+13815 07:39:03.038997 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+13815 07:39:03.039106 Command Completed
+13815 07:39:03.039181 Running command ['getSetVariable', 'BB_CONSOLELOG']
+13815 07:39:03.039386 Command Completed
+13815 07:39:03.039482 Running command ['getSetVariable', 'BB_LOGCONFIG']
+13815 07:39:03.039571 Command Completed
+13815 07:39:03.040500 Running command ['getUIHandlerNum']
+13815 07:39:03.040601 Command Completed
+13815 07:39:03.040699 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+13815 07:39:03.040798 Command Completed
+13815 07:39:03.040868 Running command ['getVariable', 'BB_DEFAULT_TASK']
+13815 07:39:03.040944 Command Completed
+13815 07:39:03.041007 Running command ['setConfig', 'cmd', 'build']
+13815 07:39:03.041094 Command Completed
+13815 07:39:03.041161 Running command ['getVariable', 'BBTARGETS']
+13815 07:39:03.041230 Command Completed
+13815 07:39:03.041295 Running command ['showEnvironment', None]
+13815 07:39:03.041345 Command Completed
+13815 07:39:03.514895 Processing Client
+13815 07:39:03.514951 Disconnecting Client
+13815 07:39:03.515073 No timeout, exiting.
+13815 07:39:03.615351 Exiting
+13815 07:39:03.618169 Original lockfile contents: ['13815\n']
+13815 07:39:03.618813 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/masr4788/aesd_assignments/A6_2/assignment-6-malolasimman/nographic/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
